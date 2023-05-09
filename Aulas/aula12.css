@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.gradiente{
+
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient( blue, white, green, yellow);
+}
+
+.transforma{
+
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(orange, red) ;
+    transform: skew(40deg);
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.Caixa-Vermelha{
+
+    
+}
