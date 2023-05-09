@@ -1,0 +1,92 @@
+.teste__hover:hover {
+    background-color: blue;
+    color: orange;
+
+}
+
+.teste__active:active {
+
+    color: blue;
+}
+
+.teste__Visited:visited {
+    color: red
+}
+
+.teste__focus:focus {
+    background-color: gold;
+}
+
+.links {
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%
+}
+
+.item:first-child,
+.item:last-child{
+    color: greenyellow;
+}
+
+.item:nth-child(2n+1){
+    background-color: bisque;
+}
+
+.item:nth-child(2n){
+    background-color: aqua;
+}
+
+
+p:first-of-type{
+    color: red;
+}
+
+
+.elemento:not(.destaque){
+background-color: blanchedalmond;
+}
+
+option:checked{
+    color: red;
+    background-color: black;
+}
+input[type="checkbox"]:checked{
+
+}
+
+input[type="email"]:valid{
+    color: green;
+}
+input[type="email"]:invalid{
+    color: red;
+}
+input:required{
+    color: pink;
+}
+
+#paragrafo::first-letter{
+    font-size: 30px;
+}
+#paragrafo::first-line{
+    font-weight: bold;
+    background-color: yellow;
+}
+
+#paragrafo::after{
+    content: " Final";
+    color: aqua;
+}
+
+#paragrafo::before{
+    content: "Inicio ";
+    color: aqua;
+}
+
+p::selection{
+    background-color:blueviolet;
+}
+
+::marker{
+    color:brown;
+}
+
