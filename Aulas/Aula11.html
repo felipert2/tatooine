@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,95 @@
     <title>Aula 11</title>
     <link rel="stylesheet" href="aula11.css">
 </head>
+
 <body>
     <span class="links">
-     <a class="teste__hover" href="#">Hover</a>
-     <a class="teste__active" href="#">Active</a>
-     <a class="teste__visited" href="#">Visited</a>
-     <a class="teste__focus" href="#">Focus</a>
+        <a class="teste__hover" href="#">Hover</a>
+        <a class="teste__active" href="#">Active</a>
+        <a class="teste__visited" href="#">Visited</a>
+        <a class="teste__focus" href="#">Focus</a>
     </span>
 
 
     <ul>
-        <li class="item" >Item 1 </li>
-        <li class="item" >Item 2 </li>
-        <li class="item" >Item 3 </li>
-        <li class="item" >Item 4 </li>
-        <li class="item" >Item 5 </li>
+        <li class="item">Item 1 </li>
+        <li class="item">Item 2 </li>
+        <li class="item">Item 3 </li>
+        <li class="item">Item 4 </li>
+        <li class="item">Item 5 </li>
 
     </ul>
     <br><br>
 
     <ol>
-        <li class="item" >Item 1 </li>
-        <li class="item" >Item 2 </li>
-        <li class="item destaque" >Item 3 </li>
-        <li class="item" >Item 4 </li>
-        <li class="item" >Item 5 </li>
+        <li class="elemento">Item 1 </li>
+        <li class="elemento">Item 2 </li>
+        <li class="elemento destaque">Item 3 </li>
+        <li class="elemento">Item 4 </li>
+        <li class="elemento">Item 5 </li>
 
     </ol>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><p> Voluptatum magnam voluptas expedita repudiandae atque molestiae doloribus. Cumque aut sed vero nisi ea tempora quia suscipit ipsum. Minima, rem excepturi? Eos?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p> Voluptatum magnam voluptas expedita repudiandae atque molestiae doloribus. Cumque aut sed vero nisi ea tempora
+        quia suscipit ipsum. Minima, rem excepturi? Eos?</p>
+
+
+    <form>
+
+
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            Gênero:<br>
+            <span>masculino</span>
+            <input type="radio" name="genero" value="Masculino" />
+            <span>feminino</span>
+            <input type="radio" name="genero" value="Feminino" />
+            <span>outro</span>
+            <input type="radio" name="genero" value="outro" />
+            <br><br>
+            E-mail: <input type="email">
+            <br><br>
+            <div>
+                <span>Aceita termos e condições</span>
+                <input type="checkbox" name="acepta" value="1" />
+                <br><br>
+                <input type="checkbox" name="carne" value="1" /> Carne
+                <input type="checkbox" name="tomate" value="1" /> Tomate
+                <input type="checkbox" name="queijo" value="1" /> Queijo
+
+            </div>
+            <br><br>
+
+            Nome:<input type="text" placeholder="Nome">
+            <br>
+            Sobrenome:<input type="text" placeholder="Sobrenome">
+            <br><br>
+
+            Tamanhos:
+            <select name="tamanhos">
+                <option value="G">Grande</option>
+                <option value="M">Médio</option>
+                <option value="P">Pequeno</option>
+            </select>
+            <br><br>
+            <button type="submit">
+                Enviar
+            </button>
+
+
+
+
+        </fieldset>
+    <div>
+        <p id="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum magni nobis labore inventore, ducimus ipsum eligendi libero optio exercitationem aspernatur. Consequatur, voluptatem. Itaque iure hic eos minus nihil asperiores? Libero!</p>
+    </div>
+    
+    </form>
+
+
+
 </body>
+
 </html>
