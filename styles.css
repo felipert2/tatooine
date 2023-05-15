@@ -1,5 +1,26 @@
+*{
+    padding: 5px;
+}
+
 body{
-    display:flex;
+    display: flex;
+    color: white;
+    background-color: black;
+    background-image:url(./Imagens/Estrutura.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.links{
+    display:flex;    
+    gap: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     flex-direction: column;
-    gap: 5px;
+    
+
+}
+
+.links:focus{
+    background-color: greenyellow;
 }

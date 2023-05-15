@@ -1,5 +1,17 @@
 *{
-    margin: 0;
+    margin: 20;
+}
+
+.transforma{
+
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient( red, yellow);
+    transform: skewy(40deg);
+    
+  
+
 }
 
 .gradiente{
@@ -7,21 +19,32 @@
     width: 200px;
     height: 200px;
     background-image: radial-gradient( blue, white, green, yellow);
+
 }
 
-.transforma{
-
-    margin: 100px;
-    width: 100px;
+.transicao{
     height: 100px;
-    background-image: radial-gradient(orange, red) ;
-    transform: skew(40deg);
-    text-align: center;
-    padding-top: 80px;
-
+    width: 100px;
+    transition:  all 3s;
+    background-color: aquamarine;
+}
+.transicao:hover{
+    height: 200px;
+    width: 200px;
+    background-color: coral;
 }
 
-.Caixa-Vermelha{
-
+.caixa__vermelha{
+    margin: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
     
+    border: 1px solid black;
 }
+
+.caixa__vermelha:hover{
+    transform:skewY(25deg);
+}
+
+
