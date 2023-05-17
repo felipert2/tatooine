@@ -17,6 +17,7 @@ body{
     gap: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     flex-direction: column;
+    text-decoration: none;
     
 
 }

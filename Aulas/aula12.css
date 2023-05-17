@@ -34,17 +34,87 @@
     background-color: coral;
 }
 
-.caixa__vermelha{
-    margin: 100px;
-    height: 100px;
+
+.animar{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer{
+    0%{
+        color: blue;
+    }
+    100%{
+        color: aqua;
+    }
+}
+
+
+.caixa__animada{
     width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name:um_efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes um_efeito{
+    0%{
+        width: 100px;
+    }
+    25%{
+        width:  300px;
+    }
+    50%{
+        width: 200px;
+    }
+    75%{
+        width: 300px;
+    }
+    100%{
+        width:  100px;
+    }
+}
+
+
+div.animado{
+    position: relative;
+    width: 100px;
+    height: 100px;
     background-color: red;
-    
-    border: 1px solid black;
+    border: solid 1px;
+
 }
 
-.caixa__vermelha:hover{
-    transform:skewY(25deg);
+.caixa__vermelha{
+    position: relative;
+    left: 200px;
+    top: 50px;
 }
 
+div.caixa__branca{
+    position: relative;
+    left: 200px;
+    top: 50px;
 
+}
+
+div:not(.animado){
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 207px;
+    top: 57px;
+}
+@keyframes animacao{
+    from{}
+    to{
+        transform: skewY(25deg);
+    }
+}
+
+.animado{
+    animation: animacao 1s linear 3s infinite alternate;
+}

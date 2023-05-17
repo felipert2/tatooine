@@ -1,3 +1,99 @@
+*{
+    margin:0px ;
+}
+
+
+#container__main{
+    display: flex;   
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
+
+
+}
+
+.jornal__container{
+    background-color: aqua;
+    width: 100%;
+}
+
+.jornal__navegacao{
+height: 1220px;
+background-color: orange;
+width: 30%
+
+}
+
+
+.jornal__container__texto{
+height: 80%;
+background-color:purple;
+display: flex;
+}
+
+.jornal__cabecalho{
+background-color: aqua;
+height: 15%;
+}
+.jornal__conteudo{
+    width: 80%;
+    
+}
+.jornal__barralateral{
+background-color: orange;
+width: 30%;
+}
+ .jornal__rodape{
+
+height:10%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexbox__cabecalho{
+background-color: brown;
+height: 150px;
+color: aliceblue;
+}
+
+.flexbox_artigos{
+    display: flex;
+    align-items: stretch;
+    height: 720px;
+}
+
+.flexbox__nav{
+background-color: blue;
+width: 20%;
+} 
+
+.flexbox__aside{
+    background-color: blueviolet;
+    width: 30%;
+}
+
+.flexbox__article{
+    background-color: burlywood;
+    width: 50%;
+    
+}
+
+.flexbox__rodape{
+    background-color: aqua;
+    text-align: center;
+}
+
+
 #container{
 
 padding: 10px;
@@ -19,9 +115,6 @@ height: 200px;
 background-color: green;
 border: dotted black;
 color: white;
-
-
-
 }
 
 #item1{
