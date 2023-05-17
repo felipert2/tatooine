@@ -1,10 +1,10 @@
 *{
-    padding: 5px;
+    padding: 0px;
 }
 
 body{
     display: flex;
-    color: white;
+  
     background-color: black;
     background-image:url(./Imagens/Estrutura.png) ;
     background-repeat: no-repeat;
@@ -12,13 +12,11 @@ body{
     
 }
 
-.links{
+.links__aulas{
     display:flex;    
-    gap: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     flex-direction: column;
-    text-decoration: none;
-    
+    text-decoration: none;    
 
 }
 
