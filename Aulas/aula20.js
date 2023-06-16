@@ -1,11 +1,20 @@
-let entrada1 = document.getElementById("1");
-console.log(entrada1);
 
 
-let entrada2 = document.getElementsByClassName("2");
-console.log(entrada2);
+
+let botaooxi = document.getElementById("botaooxi")
+botaooxi.addEventListener("click", acaoClique)
+
+function acaoClique() {
+    alert("Oxeeeeee");
+}
 
 
-let entrada3 = document.getElementsByClassName("2");
-console.log(entrada2[1]);
 
+
+let tarefas = [];
+
+let gambiarra = getElementById(ïnput)
+
+function Enviar() {
+    tarefas.push(gambiarra.value)
+}
